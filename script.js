@@ -1,4 +1,4 @@
-const API_KEY = "edde6479e411f9e3d442634563ca63cb"; 
+const API_KEY = "YOUR_OPENWEATHER_API-KEY"; 
 let units = "metric";
 
 const qInput = document.getElementById("q");
@@ -56,5 +56,6 @@ function createRain() {
     container.appendChild(drop);
   }
 }
+
 
 createRain();
